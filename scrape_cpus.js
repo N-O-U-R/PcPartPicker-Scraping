@@ -3,7 +3,7 @@ const axios = require("axios");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
 
-const apiKey = "48ec575d28107651683a214a519ef125cfde4059";
+const apiKey = "3f4076a6bb934edfe75307a196c5817b5c0ecf9d";
 const baseURL = "https://pcpartpicker.com/products/cpu/";
 const outputFile = "cpus_detailed.csv";
 const client = new ZenRows(apiKey);
@@ -129,6 +129,6 @@ async function scrapePage(pageNumber) {
 }
 
 (async () => {
-    await scrapePage(5);
+    await scrapePage(14);
     console.log("Data has been written to CSV file.");
 })();
