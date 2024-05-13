@@ -3,7 +3,7 @@ const axios = require("axios");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
 
-const apiKey = "3f4076a6bb934edfe75307a196c5817b5c0ecf9d";
+const apiKey = "";
 const baseURL = "https://pcpartpicker.com/products/cpu/";
 const outputFile = "cpus_detailed.csv";
 const client = new ZenRows(apiKey);

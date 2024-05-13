@@ -2,12 +2,7 @@ const { ZenRows } = require("zenrows");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
 
-const apiKeys = [
-    "f8818109ceb155c3250f132482d82efafb034e00",
-    "17287bce4b498f6989b36093e11d667afd6bc7b5",
-    "6feaee62a219d12dbfec990eb00af7322c23dfaa",
-    "0e5b18bfafcfd2348e3e0026a0a5e60e4af85026",
-];
+const apiKeys = [];
 const baseURL = "https://pcpartpicker.com/products/cpu-cooler/";
 const outputFile = "cpu_coolers_detailed.csv";
 

@@ -2,7 +2,7 @@ const { ZenRows } = require("zenrows");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
 
-const apiKey = "0e5b18bfafcfd2348e3e0026a0a5e60e4af85026";
+const apiKey = "";
 const baseURL = "https://pcpartpicker.com/products/motherboard/";
 const outputFile = "motherboards_detailed.csv";
 const client = new ZenRows(apiKey);
