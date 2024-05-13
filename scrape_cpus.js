@@ -1,111 +1,158 @@
 const { ZenRows } = require("zenrows");
-const axios = require("axios");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
 
-const apiKey = "";
+const apiKey = "5f3db6a2048fd1567726afa280301287efc0cf77"; // Replace with your actual ZenRows API key
 const baseURL = "https://pcpartpicker.com/products/cpu/";
 const outputFile = "cpus_detailed.csv";
 const client = new ZenRows(apiKey);
-const maxCPUDetails = 99;  // Maximum number of CPU details to fetch
-let cpuDetailsCount = 0;
 
 if (!fs.existsSync(outputFile)) {
-    let headers = "Name,Image URL,Product URL,Price,Core Count,Performance Core Clock,Performance Core Boost Clock,Efficiency Core Clock,Efficiency Core Boost Clock,TDP,Manufacturer,Part #,Integrated Graphics,Maximum Supported Memory,ECC Support,Includes Cooler,Packaging,Lithography,Includes CPU Cooler,Simultaneous Multithreading,Specs Number\n";
+    let headers = "Name,Image URL,Product URL,Price,Manufacturer,Part #,Series,Microarchitecture,Core Family,Socket,Core Count,Performance Core Clock,Performance Core Boost Clock,Efficiency Core Clock,Efficiency Core Boost Clock,L2 Cache,L3 Cache,TDP,Integrated Graphics,Maximum Supported Memory,ECC Support,Includes Cooler,Packaging,Lithography,Includes CPU Cooler,Simultaneous Multithreading,Specs Num\n";
     fs.writeFileSync(outputFile, headers);
 }
 
-async function fetchCPUDetails(url, cpuName) {
-    try {
-        const { data } = await client.get(url, {
-            "js_render": "true",
-        });
+function escapeCSVField(field) {
+    if (field) {
+        return `"${field.toString().replace(/"/g, '""')}"`;
+    }
+    return '""';
+}
 
-        const root = parse(data);
-        let specSelector = cpuName.includes("Intel") ? 
-            '#product-page > div.main-wrapper.xs-col-12 > div.wrapper.wrapper__pageContent > section > div > div.main-content.col.xs-col-12.md-col-9.lg-col-9 > div.block.xs-block.md-hide.specs' : 
-            '#product-page > div.main-wrapper.xs-col-12 > div.wrapper.wrapper__pageContent > section > div > div.sidebar-content.col.xs-col-12.md-col-3.lg-col-3 > div.block.xs-hide.md-block.specs';
-        
-        const specs = root.querySelector(specSelector);
-        if (!specs) {
-            console.error(`Specs section not found for ${url}`);
-            return {};  // Return empty object if specs section is not found
-        }
-        const specsNum = specs.querySelectorAll("div.group.group--spec").length;
-        
-        let manufacturer, partNumber, series, microarchitecture, coreFamily, socket, coreCount, perfCoreClock, boostClock, effCoreClock,effBoostClock, l2Cache, l3Cache, tdp, integratedGraphics, maximumSupportedMemory, eccSupport, includesCooler, packaging, lithography, includesCPUCooler, simultaneousMultithreading;
+async function fetchCPUDetails(url) {
+    let retries = 3;
+    while (retries > 0) {
+        try {
+            const { data } = await client.get(url, {});
 
-        for(let i = 0; i <= specsNum; i++)
-        {
-            if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Manufacturer")
-                manufacturer = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Part #")
-                partNumber = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Series")
-                series = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Microarchitecture")
-                microarchitecture = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Core Family")
-                coreFamily = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Socket")
-                socket = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Core Count")
-                coreCount = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Performance Core Clock")
-                perfCoreClock = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Performance Core Boost Clock")
-                boostClock = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Efficiency Core Clock")
-                effCoreClock = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Efficiency Core Boost Clock")
-                effBoostClock = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "L2 Cache")
-                l2Cache = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "L3 Cache")
-                l3Cache = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "TDP")
-                tdp = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Integrated Graphics")
-                integratedGraphics = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Maximum Supported Memory")
-                maximumSupportedMemory = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "ECC Support")
-                eccSupport = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Includes Cooler")
-                includesCooler = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Packaging")
-                packaging = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Lithography")
-                lithography = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Includes CPU Cooler")
-                includesCPUCooler = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-            else if( specs.querySelector(`div:nth-child(${i+1}) > h3`)?.innerText == "Simultaneous Multithreading")
-                simultaneousMultithreading = specs.querySelector(`div:nth-child(${i+1}) > div > p`)?.innerText;
-        }
-        
-        if (cpuDetailsCount < maxCPUDetails) {
-            cpuDetailsCount++;
-        } else {
-            return {};  // If we reached the limit, return an empty object
-        }
+            const root = parse(data);
+            const specsSelector = '#product-page > div.main-wrapper.xs-col-12 > div.wrapper.wrapper__pageContent > section > div > div.main-content.col.xs-col-12.md-col-9.lg-col-9 > div.block.xs-block.md-hide.specs';
+            const specs = root.querySelector(specsSelector);
+            if (!specs) {
+                console.error(`Specs section not found for ${url}`);
+                return {};
+            }
 
-        return { manufacturer, partNumber, series, microarchitecture, socket, coreCount, perfCoreClock, boostClock, effCoreClock,effBoostClock, l2Cache, l3Cache, tdp, integratedGraphics, maximumSupportedMemory, eccSupport, includesCooler, packaging, lithography, includesCPUCooler, simultaneousMultithreading, specsNum };
-    } catch (error) {
-        console.error(`Error fetching details for ${url}: ${error.message}`);
-        return {};  // Return empty object on failure
+            const specsNum = specs.querySelectorAll("div.group").length;
+
+            let details = {
+                manufacturer: "",
+                partNumber: "",
+                series: "",
+                microarchitecture: "",
+                coreFamily: "",
+                socket: "",
+                coreCount: "",
+                performanceCoreClock: "",
+                performanceCoreBoostClock: "",
+                efficiencyCoreClock: "",
+                efficiencyCoreBoostClock: "",
+                l2Cache: "",
+                l3Cache: "",
+                tdp: "",
+                integratedGraphics: "",
+                maximumSupportedMemory: "",
+                eccSupport: "",
+                includesCooler: "",
+                packaging: "",
+                lithography: "",
+                includesCPUCooler: "",
+                simultaneousMultithreading: "",
+                specsNum: specsNum
+            };
+
+            specs.querySelectorAll("div.group").forEach(group => {
+                const title = group.querySelector("h3")?.textContent.trim();
+                const value = group.querySelector("div > p")?.textContent.trim() || group.querySelectorAll("div > ul > li").map(li => li.textContent.trim()).join(', ');
+
+                switch (title) {
+                    case "Manufacturer":
+                        details.manufacturer = value;
+                        break;
+                    case "Part #":
+                        details.partNumber = value;
+                        break;
+                    case "Series":
+                        details.series = value;
+                        break;
+                    case "Microarchitecture":
+                        details.microarchitecture = value;
+                        break;
+                    case "Core Family":
+                        details.coreFamily = value;
+                        break;
+                    case "Socket":
+                        details.socket = value;
+                        break;
+                    case "Core Count":
+                        details.coreCount = value;
+                        break;
+                    case "Performance Core Clock":
+                        details.performanceCoreClock = value;
+                        break;
+                    case "Performance Core Boost Clock":
+                        details.performanceCoreBoostClock = value;
+                        break;
+                    case "Efficiency Core Clock":
+                        details.efficiencyCoreClock = value;
+                        break;
+                    case "Efficiency Core Boost Clock":
+                        details.efficiencyCoreBoostClock = value;
+                        break;
+                    case "L2 Cache":
+                        details.l2Cache = value;
+                        break;
+                    case "L3 Cache":
+                        details.l3Cache = value;
+                        break;
+                    case "TDP":
+                        details.tdp = value;
+                        break;
+                    case "Integrated Graphics":
+                        details.integratedGraphics = value;
+                        break;
+                    case "Maximum Supported Memory":
+                        details.maximumSupportedMemory = value;
+                        break;
+                    case "ECC Support":
+                        details.eccSupport = value;
+                        break;
+                    case "Includes Cooler":
+                        details.includesCooler = value;
+                        break;
+                    case "Packaging":
+                        details.packaging = value;
+                        break;
+                    case "Lithography":
+                        details.lithography = value;
+                        break;
+                    case "Includes CPU Cooler":
+                        details.includesCPUCooler = value;
+                        break;
+                    case "Simultaneous Multithreading":
+                        details.simultaneousMultithreading = value;
+                        break;
+                }
+            });
+            return details;
+        } catch (error) {
+            console.log(`Error fetching details for ${url}: ${error.message}`);
+            if (retries === 1 || !error.response || error.response.status !== 422) {
+                console.error(`Final fail for ${url}`);
+                return {};
+            }
+            retries--;
+            await new Promise(resolve => setTimeout(resolve, 3000)); // Retry after 3 seconds
+        }
     }
 }
 
 async function scrapePage(pageNumber) {
     const url = baseURL + `#page=${pageNumber}`;
-    let csvContent = "";  // Initialize csvContent for each scrape session
+    let csvContent = "";
 
     try {
-        const { data } = await client.get(url, {
-            "js_render": "true",
-            "wait": "4000"
-        });
-
+        const { data } = await client.get(url, { js_render: true, wait: 3000 });
         const root = parse(data);
         const rows = root.querySelectorAll("#category_content > tr");
 
@@ -116,12 +163,38 @@ async function scrapePage(pageNumber) {
             const priceElement = row.querySelector('td.td__price');
             let price = priceElement ? priceElement.innerText.trim().split('Add')[0].trim() : 'N/A';
 
-            if (cpuDetailsCount < maxCPUDetails) {
-                const details = await fetchCPUDetails(productUrl, name);
-                csvContent += `"${name}","${imageUrl}","${productUrl}","${price}","${details.coreCount || 'N/A'}","${details.perfCoreClock || 'N/A'}","${details.boostClock || 'N/A'}","${details.effCoreClock || 'N/A'}","${details.effBoostClock || 'N/A'}","${details.tdp || 'N/A'}","${details.manufacturer || 'N/A'}","${details.partNumber || 'N/A'}","${details.integratedGraphics || 'N/A'}","${details.maximumSupportedMemory || 'N/A'}","${details.eccSupport || 'N/A'}","${details.includesCooler || 'N/A'}","${details.packaging || 'N/A'}","${details.lithography || 'N/A'}","${details.includesCPUCooler || 'N/A'}","${details.simultaneousMultithreading || 'N/A'}","${details.specsNum || 'N/A'}"\n`;
-            }
+            const details = await fetchCPUDetails(productUrl);
+            csvContent += [
+                escapeCSVField(name),
+                escapeCSVField(imageUrl),
+                escapeCSVField(productUrl),
+                escapeCSVField(price),
+                escapeCSVField(details.manufacturer),
+                escapeCSVField(details.partNumber),
+                escapeCSVField(details.series),
+                escapeCSVField(details.microarchitecture),
+                escapeCSVField(details.coreFamily),
+                escapeCSVField(details.socket),
+                escapeCSVField(details.coreCount),
+                escapeCSVField(details.performanceCoreClock),
+                escapeCSVField(details.performanceCoreBoostClock),
+                escapeCSVField(details.efficiencyCoreClock),
+                escapeCSVField(details.efficiencyCoreBoostClock),
+                escapeCSVField(details.l2Cache),
+                escapeCSVField(details.l3Cache),
+                escapeCSVField(details.tdp),
+                escapeCSVField(details.integratedGraphics),
+                escapeCSVField(details.maximumSupportedMemory),
+                escapeCSVField(details.eccSupport),
+                escapeCSVField(details.includesCooler),
+                escapeCSVField(details.packaging),
+                escapeCSVField(details.lithography),
+                escapeCSVField(details.includesCPUCooler),
+                escapeCSVField(details.simultaneousMultithreading),
+                escapeCSVField(details.specsNum)
+            ].join(",") + "\n";
         }
-        fs.appendFileSync(outputFile, csvContent);  // Append the accumulated csvContent to the file
+        fs.appendFileSync(outputFile, csvContent, 'utf8');
         console.log(`Page ${pageNumber} scraped successfully.`);
     } catch (error) {
         console.error(`Failed to scrape page ${pageNumber}: ${error.message}`);
@@ -129,6 +202,8 @@ async function scrapePage(pageNumber) {
 }
 
 (async () => {
-    await scrapePage(14);
+    for (let i = 8; i <=14 ; i++) { // Modify the range as needed
+        await scrapePage(i);
+    }
     console.log("Data has been written to CSV file.");
 })();

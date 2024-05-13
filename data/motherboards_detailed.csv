@@ -1,7 +1,7 @@
-Name,Image URL,Product URL,Price,Manufacturer,Model,Part #,Socket/CPU,Form Factor,Chipset,Memory Max,Memory Type,Memory Slots,Memory Speed,Color,PCIe x16 Slots,PCIe x8 Slots,PCIe x4 Slots,PCIe x1 Slots,PCI Slots,M.2 Slots,Mini-PCIe Slots,Half Mini-PCIe Slots,Mini-PCIe / mSATA Slots,mSATA Slots,SATA 6.0 Gb/s,Onboard Ethernet,Onboard Video,USB 2.0 Headers,USB 2.0 Headers (Single Port),USB 3.2 Gen 1 Headers,USB 3.2 Gen 2 Headers,USB 3.2 Gen 2x2 Headers,Supports ECC,Wireless Networking,RAID Support,Specs Number
+Name,Image URL,Product URL,Price,Manufacturer,Part #,Socket/CPU,Form Factor,Chipset,Memory Max,Memory Type,Memory Slots,Memory Speed,Color,PCIe x16 Slots,PCIe x8 Slots,PCIe x4 Slots,PCIe x1 Slots,PCI Slots,M.2 Slots,Mini-PCIe Slots,Half Mini-PCIe Slots,Mini-PCIe / mSATA Slots,mSATA Slots,SATA 6.0 Gb/s,Onboard Ethernet,Onboard Video,USB 2.0 Headers,USB 2.0 Headers (Single Port),USB 3.2 Gen 1 Headers,USB 3.2 Gen 2 Headers,USB 3.2 Gen 2x2 Headers,Supports ECC,Wireless Networking,RAID Support,
 MSI B650 GAMING PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/ca980d24c4cc99996e802092f9590bcf.256p.jpg,https://pcpartpicker.com/product/szfxFT/msi-b650-gaming-plus-wifi-atx-am5-motherboard-b650-gaming-plus-wifi,$169.99 ,"
 MSI
-",N/A,"B650 GAMING PLUS WIFI, 7E26-001R, 911-7E26-001","
+","B650 GAMING PLUS WIFI, 7E26-001R, 911-7E26-001","
 AM5
 ","
 ATX
@@ -51,10 +51,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG STRIX B650-A GAMING WIFI,https://m.media-amazon.com/images/I/51W9XJLDRlL.jpg,https://pcpartpicker.com/product/Gjt9TW/asus-rog-strix-b650-a-gaming-wifi-atx-am5-motherboard-rog-strix-b650-a-gaming-wifi,$229.99 ,"
 Asus
-",N/A,"ROG STRIX B650-A GAMING WIFI, 90MB1BP0-M0AAY0, 90MB1BP0-M0EAY0","
+","ROG STRIX B650-A GAMING WIFI, 90MB1BP0-M0AAY0, 90MB1BP0-M0EAY0","
 AM5
 ","
 ATX
@@ -104,10 +104,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI B760 GAMING PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/f22d681ccfd01238e756443a474f400b.256p.jpg,https://pcpartpicker.com/product/TxcgXL/msi-b760-gaming-plus-wifi-atx-lga1700-motherboard-b760-gaming-plus-wifi,$159.99 ,"
 MSI
-",N/A,"B760 GAMING PLUS WIFI, 7D98-007R, 911-7D98-007","
+","B760 GAMING PLUS WIFI, 7D98-007R, 911-7D98-007","
 LGA1700
 ","
 ATX
@@ -157,10 +157,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI B550 GAMING GEN3,//cdna.pcpartpicker.com/static/forever/images/product/cbc52effd345bd5e9d66b5f7d198f8b4.256p.jpg,https://pcpartpicker.com/product/JVJgXL/msi-b550-gaming-gen3-atx-am4-motherboard-b550-gaming-gen3,$99.99 ,"
 MSI
-",N/A,"B550 GAMING GEN3, 7B86-050R, 911-7B86-050","
+","B550 GAMING GEN3, 7B86-050R, 911-7B86-050","
 AM4
 ","
 ATX
@@ -210,10 +210,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 MSI PRO Z790-A MAX WIFI,//cdna.pcpartpicker.com/static/forever/images/product/55e781311c4d62e83df9ac297a64c01a.256p.jpg,https://pcpartpicker.com/product/CsvD4D/msi-pro-z790-a-max-wifi-atx-lga1700-motherboard-pro-z790-a-max-wifi,$239.99 ,"
 MSI
-",N/A,"PRO Z790-A MAX WIFI, 7E07-014R, 911-7E07-014","
+","PRO Z790-A MAX WIFI, 7E07-014R, 911-7E07-014","
 LGA1700
 ","
 ATX
@@ -263,10 +263,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Gigabyte B650 GAMING X AX,//cdna.pcpartpicker.com/static/forever/images/product/40037fa5f1c2c2b92273f1a5547ed181.256p.jpg,https://pcpartpicker.com/product/YZgFf7/gigabyte-b650-gaming-x-ax-atx-am5-motherboard-b650-gaming-x-ax,$189.15 ,"
 Gigabyte
-",N/A,B650 GAMING X AX,"
+",B650 GAMING X AX,"
 AM5
 ","
 ATX
@@ -316,10 +316,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MAG B650 TOMAHAWK WIFI,//cdna.pcpartpicker.com/static/forever/images/product/dc9235e0d8052745493eb900bb9df6f6.256p.jpg,https://pcpartpicker.com/product/LwNxFT/msi-mag-b650-tomahawk-wifi-atx-am5-motherboard-mag-b650-tomahawk-wifi,$199.99 ,"
 MSI
-",N/A,"MAG B650 TOMAHAWK WIFI, 7D75-001R, B650TOMAHAWKWIFI, 911-7D75-001","
+","MAG B650 TOMAHAWK WIFI, 7D75-001R, B650TOMAHAWKWIFI, 911-7D75-001","
 AM5
 ","
 ATX
@@ -369,10 +369,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI B450M-A PRO MAX II,//cdna.pcpartpicker.com/static/forever/images/product/a1a4552c218bc30c1738a3642c5691dd.256p.jpg,https://pcpartpicker.com/product/w4BzK8/msi-b450m-a-pro-max-ii-micro-atx-am4-motherboard-b450m-a-pro-max-ii,$69.98 ,"
 MSI
-",N/A,B450M-A PRO MAX II,"
+",B450M-A PRO MAX II,"
 AM4
 ","
 Micro ATX
@@ -422,10 +422,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock B650M Pro RS WiFi,//cdna.pcpartpicker.com/static/forever/images/product/d7893755609db1feb833c99ad9d243bf.256p.jpg,https://pcpartpicker.com/product/qcbRsY/asrock-b650m-pro-rs-wifi-micro-atx-am5-motherboard-b650m-pro-rs-wifi,$206.70 ,"
 ASRock
-",N/A,"B650M Pro RS WiFi, 90-MXBLZ0-A0UAYZ","
+","B650M Pro RS WiFi, 90-MXBLZ0-A0UAYZ","
 AM5
 ","
 Micro ATX
@@ -475,10 +475,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",32
+",
 Asus PRIME B550M-A WIFI II,//cdna.pcpartpicker.com/static/forever/images/product/ff4b4e2c7f72b014f39f1864b19e7250.256p.jpg,https://pcpartpicker.com/product/jQrRsY/asus-prime-b550m-a-wifi-ii-micro-atx-am4-motherboard-prime-b550m-a-wifi-ii,$104.99 ,"
 Asus
-",N/A,"PRIME B550M-A WIFI II, 90MB19X0-M0AAY0, 90MB19X0-M0EAY0","
+","PRIME B550M-A WIFI II, 90MB19X0-M0AAY0, 90MB19X0-M0EAY0","
 AM4
 ","
 Micro ATX
@@ -528,10 +528,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",31
+",
 ASRock B660M Pro RS,//cdna.pcpartpicker.com/static/forever/images/product/5602839ae99179798119982f3d94a277.256p.jpg,https://pcpartpicker.com/product/TZPQzy/asrock-b660m-pro-rs-micro-atx-lga1700-motherboard-b660m-pro-rs,$94.99 ,"
 ASRock
-",N/A,"B660M Pro RS, 90-MXBGW0-A0UAYZ","
+","B660M Pro RS, 90-MXBGW0-A0UAYZ","
 LGA1700
 ","
 Micro ATX
@@ -581,10 +581,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 MSI PRO B650M-P,//cdna.pcpartpicker.com/static/forever/images/product/f03f1d667284f39b3eaf208a50cdbb68.256p.jpg,https://pcpartpicker.com/product/LdHqqs/msi-pro-b650m-p-micro-atx-am5-motherboard-pro-b650m-p,$119.99 ,"
 MSI
-",N/A,"PRO B650M-P, 7E27-001R, 911-7E27-001","
+","PRO B650M-P, 7E27-001R, 911-7E27-001","
 AM5
 ","
 Micro ATX
@@ -634,10 +634,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 MSI PRO Z790-P WIFI,//cdna.pcpartpicker.com/static/forever/images/product/70392ffdd327f8c69ec493d66a257742.256p.jpg,https://pcpartpicker.com/product/k7mmP6/msi-pro-z790-p-wifi-atx-lga1700-motherboard-pro-z790-p-wifi,$193.65 ,"
 MSI
-",N/A,"PRO Z790-P WIFI, 7E06-001R, 911-7E06-010","
+","PRO Z790-P WIFI, 7E06-001R, 911-7E06-010","
 LGA1700
 ","
 ATX
@@ -687,10 +687,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI PRO B650M-A WIFI,//cdna.pcpartpicker.com/static/forever/images/product/a7ffc5ab34c099836bb0ff9f9dfcab6d.256p.jpg,https://pcpartpicker.com/product/cRQcCJ/msi-pro-b650m-a-wifi-micro-atx-am5-motherboard-pro-b650m-a-wifi,$144.99 ,"
 MSI
-",N/A,"PRO B650M-A WIFI, 7D77-001R, B650MAWIFI, 911-7D77-001","
+","PRO B650M-A WIFI, 7D77-001R, B650MAWIFI, 911-7D77-001","
 AM5
 ","
 Micro ATX
@@ -740,10 +740,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MAG X670E TOMAHAWK WIFI,//cdna.pcpartpicker.com/static/forever/images/product/c4516e2f81a19d4c9045028a3bae013b.256p.jpg,https://pcpartpicker.com/product/bGfxFT/msi-mag-x670e-tomahawk-wifi-atx-am5-motherboard-mag-x670e-tomahawk-wifi,$259.99 ,"
 MSI
-",N/A,"MAG X670E TOMAHAWK WIFI, 7E12-001R, 911-7E12-001","
+","MAG X670E TOMAHAWK WIFI, 7E12-001R, 911-7E12-001","
 AM5
 ","
 ATX
@@ -793,10 +793,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus TUF GAMING Z790-PRO WIFI,//cdna.pcpartpicker.com/static/forever/images/product/d31f8288903c781a94e963b0a3eeb4b4.256p.jpg,https://pcpartpicker.com/product/skqrxr/asus-tuf-gaming-z790-pro-wifi-atx-lga1700-motherboard-tuf-gaming-z790-pro-wifi,$244.99 ,"
 Asus
-",N/A,"TUF GAMING Z790-PRO WIFI, 90MB1FJ0-M0AAY0, 90MB1FJ0-M0EAY0","
+","TUF GAMING Z790-PRO WIFI, 90MB1FJ0-M0AAY0, 90MB1FJ0-M0EAY0","
 LGA1700
 ","
 ATX
@@ -846,11 +846,9 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG STRIX B550-F GAMING WIFI II,//cdna.pcpartpicker.com/static/forever/images/product/923cae0c8159c98aaf91541a20f95dc9.256p.jpg,https://pcpartpicker.com/product/K4LFf7/asus-rog-strix-b550-f-gaming-wifi-ii-atx-am4-motherboard-strix-b550-f-gaming-wifi-ii,$159.99 ,"
 Asus
-","
-ROG STRIX B550-F GAMING WIFI II
 ","STRIX B550-F GAMING WIFI II, ROG STRIX B550-F GAMING WIFI II, 90MB19V0-M0EAY0","
 AM4
 ","
@@ -901,10 +899,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",32
+",
 MSI MAG B550 TOMAHAWK MAX WIFI,//cdna.pcpartpicker.com/static/forever/images/product/cf20560e7e4a9e474fcb4c88238e4ffd.256p.jpg,https://pcpartpicker.com/product/MfZ9TW/msi-mag-b550-tomahawk-max-wifi-atx-am4-motherboard-mag-b550-tomahawk-max-wifi,$169.99 ,"
 MSI
-",N/A,"MAG B550 TOMAHAWK MAX WIFI, 7C94-043R","
+","MAG B550 TOMAHAWK MAX WIFI, 7C94-043R","
 AM4
 ","
 ATX
@@ -954,10 +952,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",32
+",
 Gigabyte B550M K,//cdna.pcpartpicker.com/static/forever/images/product/f52a9a0b2a28f096b5b1e5bf02707224.256p.jpg,https://pcpartpicker.com/product/RH9wrH/gigabyte-b550m-k-micro-atx-am4-motherboard-b550m-k,$94.99 ,"
 Gigabyte
-",N/A,"B550M K, GA-B550M-K","
+","B550M K, GA-B550M-K","
 AM4
 ","
 Micro ATX
@@ -1007,10 +1005,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock B650I Lightning Wifi,//cdna.pcpartpicker.com/static/forever/images/product/40e47e0c22c38ba2269880dd81c305f3.256p.jpg,https://pcpartpicker.com/product/rVfxFT/asrock-b650i-lightning-wifi-mini-itx-am5-motherboard-b650i-lightning-wifi,$199.99 ,"
 ASRock
-",N/A,"B650I Lightning Wifi, 90-MXBMP0-A0UAYZ","
+","B650I Lightning Wifi, 90-MXBMP0-A0UAYZ","
 AM5
 ","
 Mini ITX
@@ -1060,10 +1058,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI B550M PRO-VDH WIFI,//cdna.pcpartpicker.com/static/forever/images/product/57b4a5399dc626e9c5786f786aeb94ac.256p.jpg,https://pcpartpicker.com/product/PDsnTW/msi-b550m-pro-vdh-wifi-micro-atx-am4-motherboard-b550m-pro-vdh-wifi,$99.99 ,"
 MSI
-",N/A,"B550M PRO-VDH WIFI, 7C95-001R, 911-7C95-008","
+","B550M PRO-VDH WIFI, 7C95-001R, 911-7C95-008","
 AM4
 ","
 Micro ATX
@@ -1113,10 +1111,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 Asus ROG STRIX B650E-F GAMING WIFI,//cdna.pcpartpicker.com/static/forever/images/product/b950287e2f141caa4638fc93dc99a6ba.256p.jpg,https://pcpartpicker.com/product/s8nypg/asus-rog-strix-b650e-f-gaming-wifi-atx-am5-motherboard-rog-strix-b650e-f-gaming-wifi,$256.95 ,"
 Asus
-",N/A,"ROG STRIX B650E-F GAMING WIFI, 90MB1BQ0-M0AAY0, 90MB1BQ0-M0EAY0, 90MB1BQ0-M0EAY1","
+","ROG STRIX B650E-F GAMING WIFI, 90MB1BQ0-M0AAY0, 90MB1BQ0-M0EAY0, 90MB1BQ0-M0EAY1","
 AM5
 ","
 ATX
@@ -1166,10 +1164,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B650 AORUS ELITE AX ICE,//cdna.pcpartpicker.com/static/forever/images/product/7352b7865a2e77e70371d5c81a01f5a7.256p.jpg,https://pcpartpicker.com/product/CwjRsY/gigabyte-b650-aorus-elite-ax-ice-atx-am5-motherboard-b650-aorus-elite-ax-ice,$229.99 ,"
 Gigabyte
-",N/A,"B650 AORUS ELITE AX ICE, B650 A ELITE AX ICE","
+","B650 AORUS ELITE AX ICE, B650 A ELITE AX ICE","
 AM5
 ","
 ATX
@@ -1219,10 +1217,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B650 EAGLE AX,https://m.media-amazon.com/images/I/51BdjazabVL.jpg,https://pcpartpicker.com/product/CvcgXL/gigabyte-b650-eagle-ax-atx-am5-motherboard-b650-eagle-ax,$149.99 ,"
 Gigabyte
-",N/A,"B650 EAGLE AX, B650 EAGLE AX 1.0","
+","B650 EAGLE AX, B650 EAGLE AX 1.0","
 AM5
 ","
 ATX
@@ -1272,10 +1270,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG MAXIMUS Z790 DARK HERO,//cdna.pcpartpicker.com/static/forever/images/product/a7c9c4159cc9aa72f29988cd1f376e9c.256p.jpg,https://pcpartpicker.com/product/PnXV3C/asus-rog-maximus-z790-dark-hero-atx-lga1700-motherboard-rog-maximus-z790-dark-hero,$579.99 ,"
 Asus
-",N/A,"ROG MAXIMUS Z790 DARK HERO, 90MB1F90-M0AAY0, 90MB1F90-M0EAY0","
+","ROG MAXIMUS Z790 DARK HERO, 90MB1F90-M0AAY0, 90MB1F90-M0EAY0","
 LGA1700
 ","
 ATX
@@ -1325,10 +1323,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 MSI PRO B650-S WIFI,https://m.media-amazon.com/images/I/51U17qKQlCL.jpg,https://pcpartpicker.com/product/mP88TW/msi-pro-b650-s-wifi-atx-am5-motherboard-pro-b650-s-wifi,$139.99 ,"
 MSI
-",N/A,"PRO B650-S WIFI, 7E26-003R","
+","PRO B650-S WIFI, 7E26-003R","
 AM5
 ","
 ATX
@@ -1378,10 +1376,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus Prime B450M-A II,//cdna.pcpartpicker.com/static/forever/images/product/dbeb8cc8ade3dfcbfed111e7b3b4d00f.256p.jpg,https://pcpartpicker.com/product/kthmP6/asus-prime-b450m-a-ii-micro-atx-am4-motherboard-prime-b450m-a-ii,$69.98 ,"
 Asus
-",N/A,"Prime B450M-A II, 90MB15Z0-M0AAY0","
+","Prime B450M-A II, 90MB15Z0-M0AAY0","
 AM4
 ","
 Micro ATX
@@ -1429,10 +1427,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",30
+",
 Asus ROG STRIX Z790-A GAMING WIFI II,//cdna.pcpartpicker.com/static/forever/images/product/f8ae5122cf0714c64af32c0d940ce6d7.256p.jpg,https://pcpartpicker.com/product/p8P8TW/asus-rog-strix-z790-a-gaming-wifi-ii-atx-lga1700-motherboard-rog-strix-z790-a-gaming-wifi-ii,$323.97 ,"
 Asus
-",N/A,"ROG STRIX Z790-A GAMING WIFI II, 90MB1FN0-M0EAY0, 90MB1FN0-M0AAY0","
+","ROG STRIX Z790-A GAMING WIFI II, 90MB1FN0-M0EAY0, 90MB1FN0-M0AAY0","
 LGA1700
 ","
 ATX
@@ -1482,10 +1480,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 MSI PRO B550M-VC WIFI,//cdna.pcpartpicker.com/static/forever/images/product/3ba98d49243674bac25ebc39e6cc1fbc.256p.jpg,https://pcpartpicker.com/product/tr4Ycf/msi-pro-b550m-vc-wifi-micro-atx-am4-motherboard-pro-b550m-vc-wifi,$116.55 ,"
 MSI
-",N/A,PRO B550M-VC WIFI,"
+",PRO B550M-VC WIFI,"
 AM4
 ","
 Micro ATX
@@ -1535,10 +1533,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MAG Z790 TOMAHAWK WIFI,//cdna.pcpartpicker.com/static/forever/images/product/4776555bd90ed817bdfa00fc78ae3043.256p.jpg,https://pcpartpicker.com/product/9B2WGX/msi-mag-z790-tomahawk-wifi-atx-lga1700-motherboard-mag-z790-tomahawk-wifi,$209.99 ,"
 MSI
-",N/A,"MAG Z790 TOMAHAWK WIFI, 7D91-009R, 911-7D91-010","
+","MAG Z790 TOMAHAWK WIFI, 7D91-009R, 911-7D91-010","
 LGA1700
 ","
 ATX
@@ -1588,10 +1586,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B650 AORUS ELITE AX,//cdna.pcpartpicker.com/static/forever/images/product/322a6059c413dd736536e5ad5c3a2285.256p.jpg,https://pcpartpicker.com/product/WBwypg/gigabyte-b650-aorus-elite-ax-atx-am5-motherboard-b650-aorus-elite-ax,$191.53 ,"
 Gigabyte
-",N/A,B650 AORUS ELITE AX,"
+",B650 AORUS ELITE AX,"
 AM5
 ","
 ATX
@@ -1641,10 +1639,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus PRIME B760-PLUS,//cdna.pcpartpicker.com/static/forever/images/product/9ae5b4f1c9b5f2db1f0d9c956e0594dc.256p.jpg,https://pcpartpicker.com/product/fRGhP6/asus-prime-b760-plus-atx-lga1700-motherboard-prime-b760-plus,$129.99 ,"
 Asus
-",N/A,"PRIME B760-PLUS, 90MB1EF0-M0EAY0, 90MB1EF0-M1EAY0","
+","PRIME B760-PLUS, 90MB1EF0-M0EAY0, 90MB1EF0-M1EAY0","
 LGA1700
 ","
 ATX
@@ -1694,10 +1692,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Gigabyte TRX40 AORUS XTREME,//cdna.pcpartpicker.com/static/forever/images/product/e2424c4cee2b26ab9066cbcc7e236766.256p.jpg,https://pcpartpicker.com/product/Wkwkcf/gigabyte-trx40-aorus-xtreme-xl-atx-strx4-motherboard-trx40-aorus-xtreme,"$1,840.01 ","
 Gigabyte
-",N/A,TRX40 AORUS XTREME,"
+",TRX40 AORUS XTREME,"
 sTRX4
 ","
 XL ATX
@@ -1747,10 +1745,10 @@ No
 Yes
 ",Wi-Fi 6,"
 Yes
-",32
+",
 Asus TUF GAMING B650-PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/d9e08ab3fe18574bdc4f01dcfecce0ea.256p.jpg,https://pcpartpicker.com/product/Pz2WGX/asus-tuf-gaming-b650-plus-wifi-atx-am5-motherboard-tuf-gaming-b650-plus-wifi,$199.99 ,"
 Asus
-",N/A,"TUF GAMING B650-PLUS WIFI, 90MB1BZ0-M0AAY0, 90MB1BZ0-M0EAY0","
+","TUF GAMING B650-PLUS WIFI, 90MB1BZ0-M0AAY0, 90MB1BZ0-M0EAY0","
 AM5
 ","
 ATX
@@ -1800,10 +1798,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",31
+",
 MSI B550-A PRO,https://m.media-amazon.com/images/I/51YHWAAsu5L.jpg,https://pcpartpicker.com/product/7gxbt6/msi-b550-a-pro-atx-am4-motherboard-b550-a-pro,$109.99 ,"
 MSI
-",N/A,"B550-A PRO, 7C56-002R","
+","B550-A PRO, 7C56-002R","
 AM4
 ","
 ATX
@@ -1853,10 +1851,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 Gigabyte X670E AORUS PRO X,//cdna.pcpartpicker.com/static/forever/images/product/ed96e79adfb854293ada324c83e2db65.256p.jpg,https://pcpartpicker.com/product/WRHqqs/gigabyte-x670e-aorus-pro-x-atx-am5-motherboard-x670e-aorus-pro-x,$299.99 ,"
 Gigabyte
-",N/A,X670E AORUS PRO X,"
+",X670E AORUS PRO X,"
 AM5
 ","
 ATX
@@ -1906,10 +1904,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Gigabyte Z790 AORUS ELITE AX,//cdna.pcpartpicker.com/static/forever/images/product/ba20600286bf8f74ce71df37ed8aef65.256p.jpg,https://pcpartpicker.com/product/T2H7YJ/gigabyte-z790-aorus-elite-ax-atx-lga1700-motherboard-z790-aorus-elite-ax,$219.99 ,"
 Gigabyte
-",N/A,Z790 AORUS ELITE AX,"
+",Z790 AORUS ELITE AX,"
 LGA1700
 ","
 ATX
@@ -1959,10 +1957,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",32
+",
 MSI PRO B760-P WIFI DDR4,//cdna.pcpartpicker.com/static/forever/images/product/28e8ce6b41464b892862574420f45b63.256p.jpg,https://pcpartpicker.com/product/yMGbt6/msi-pro-b760-p-wifi-ddr4-atx-lga1700-motherboard-pro-b760-p-wifi-ddr4,$149.99 ,"
 MSI
-",N/A,"PRO B760-P WIFI DDR4, 7D98-001R, PROB760PWIFID4, 911-7D98-001","
+","PRO B760-P WIFI DDR4, 7D98-001R, PROB760PWIFID4, 911-7D98-001","
 LGA1700
 ","
 ATX
@@ -2012,10 +2010,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG STRIX Z790-E GAMING WIFI II,//cdna.pcpartpicker.com/static/forever/images/product/ea9335fbc8a992cf112531ffec280ca5.256p.jpg,https://pcpartpicker.com/product/KzCZxr/asus-rog-strix-z790-e-gaming-wifi-ii-atx-lga1700-motherboard-rog-strix-z790-e-gaming-wifi-ii,$427.99 ,"
 Asus
-",N/A,"ROG STRIX Z790-E GAMING WIFI II, 90MB1FC0-M0EAY0, 90MB1FC0-M0AAY0","
+","ROG STRIX Z790-E GAMING WIFI II, 90MB1FC0-M0EAY0, 90MB1FC0-M0AAY0","
 LGA1700
 ","
 ATX
@@ -2065,10 +2063,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Gigabyte B550 UD AC,//cdna.pcpartpicker.com/static/forever/images/product/9c84b688f61e7464302774dcde515727.256p.jpg,https://pcpartpicker.com/product/wjXV3C/gigabyte-b550-ud-ac-atx-am4-motherboard-b550-ud-ac,$94.99 ,"
 Gigabyte
-",N/A,B550 UD AC,"
+",B550 UD AC,"
 AM4
 ","
 ATX
@@ -2118,10 +2116,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 ASRock B450M-HDV R4.0,//cdna.pcpartpicker.com/static/forever/images/product/2b2897ac0de148a2935c3277573131b3.256p.jpg,https://pcpartpicker.com/product/RD97YJ/asrock-b450m-hdv-r40-micro-atx-am4-motherboard-b450m-hdv-r40,$59.99 ,"
 ASRock
-",N/A,B450M-HDV R4.0,"
+",B450M-HDV R4.0,"
 AM4
 ","
 Micro ATX
@@ -2171,10 +2169,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 MSI PRO A620M-E,//cdna.pcpartpicker.com/static/forever/images/product/34c7498342efbe846f61fdb593687e7e.256p.jpg,https://pcpartpicker.com/product/NL26Mp/msi-pro-a620m-e-micro-atx-am5-motherboard-pro-a620m-e,$74.95 ,"
 MSI
-",N/A,"PRO A620M-E, 7E28-001R, 911-7E28-001","
+","PRO A620M-E, 7E28-001R, 911-7E28-001","
 AM5
 ","
 Micro ATX
@@ -2224,10 +2222,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 MSI PRO H610M-G DDR4,//cdna.pcpartpicker.com/static/forever/images/product/8a6d9e0f04302ca47ff65d23bda24e49.256p.jpg,https://pcpartpicker.com/product/hPWzK8/msi-pro-h610m-g-ddr4-micro-atx-lga1700-motherboard-pro-h610m-g-ddr4,$79.98 ,"
 MSI
-",N/A,"PRO H610M-G DDR4, 7D46-009R, 911-7D46-003","
+","PRO H610M-G DDR4, 7D46-009R, 911-7D46-003","
 LGA1700
 ","
 Micro ATX
@@ -2277,10 +2275,10 @@ Depends on CPU
 No
 ",None,"
 No
-",31
+",
 MSI B450M PRO-VDH MAX,//cdna.pcpartpicker.com/static/forever/images/product/9f282b8b21d7c5b1fae9b0474ed77164.256p.jpg,https://pcpartpicker.com/product/kRTzK8/msi-b450m-pro-vdh-max-micro-atx-am4-motherboard-b450m-pro-vdh-max,$74.99 ,"
 MSI
-",N/A,"B450M PRO-VDH MAX, 7A38-043R, B450PVDHMAX, 911-7A38-043","
+","B450M PRO-VDH MAX, 7A38-043R, B450PVDHMAX, 911-7A38-043","
 AM4
 ","
 Micro ATX
@@ -2330,10 +2328,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Asus ROG STRIX B650E-I GAMING WIFI,//cdna.pcpartpicker.com/static/forever/images/product/bf950d502a28575d015348684bf78a37.256p.jpg,https://pcpartpicker.com/product/WQTp99/asus-rog-strix-b650e-i-gaming-wifi-mini-itx-am5-motherboard-rog-strix-b650e-i-gaming-wifi,$299.99 ,"
 Asus
-",N/A,"ROG STRIX B650E-I GAMING WIFI, 90MB1BI0-M0EAY0","
+","ROG STRIX B650E-I GAMING WIFI, 90MB1BI0-M0EAY0","
 AM5
 ","
 Mini ITX
@@ -2383,10 +2381,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 ASRock B760M-HDV/M.2,//cdna.pcpartpicker.com/static/forever/images/product/6d1f619fbf406671849ca10109dbd413.256p.jpg,https://pcpartpicker.com/product/j2WJ7P/asrock-b760m-hdvm2-micro-atx-lga1700-motherboard-b760m-hdvm2,$119.99 ,"
 ASRock
-",N/A,"B760M-HDV/M.2, 90-MXBMJ0-A0UAYZ","
+","B760M-HDV/M.2, 90-MXBMJ0-A0UAYZ","
 LGA1700
 ","
 Micro ATX
@@ -2436,10 +2434,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock B450M/ac R2.0,//cdna.pcpartpicker.com/static/forever/images/product/3097c6aa9533b84ddbaa1ce0be506081.256p.jpg,https://pcpartpicker.com/product/KcyH99/asrock-b450mac-r20-micro-atx-am4-motherboard-b450mac-r20,$79.98 ,"
 ASRock
-",N/A,B450M/ac R2.0,"
+",B450M/ac R2.0,"
 AM4
 ","
 Micro ATX
@@ -2489,10 +2487,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",32
+",
 MSI PRO Z690-A WIFI,//cdna.pcpartpicker.com/static/forever/images/product/b92bb62d182daebc0d9f5494dd0b2b68.256p.jpg,https://pcpartpicker.com/product/K9Fbt6/msi-pro-z690-a-wifi-atx-lga1700-motherboard-pro-z690-a-wifi,$149.99 ,"
 MSI
-",N/A,"PRO Z690-A WIFI, 7D25-017R","
+","PRO Z690-A WIFI, 7D25-017R","
 LGA1700
 ","
 ATX
@@ -2542,10 +2540,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",32
+",
 ASRock B650M Pro RS,//cdna.pcpartpicker.com/static/forever/images/product/4dc751a89c74d335cae25cbc50b4c67e.256p.jpg,https://pcpartpicker.com/product/FcbRsY/asrock-b650m-pro-rs-micro-atx-am5-motherboard-b650m-pro-rs,$129.99 ,"
 ASRock
-",N/A,"B650M Pro RS, 90-MXBLP0-A0UAYZ","
+","B650M Pro RS, 90-MXBLP0-A0UAYZ","
 AM5
 ","
 Micro ATX
@@ -2595,10 +2593,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 ASRock B550M Pro4,https://m.media-amazon.com/images/I/51P4WIOlrnL.jpg,https://pcpartpicker.com/product/NT7p99/asrock-b550m-pro4-micro-atx-am4-motherboard-b550m-pro4,$89.99 ,"
 ASRock
-",N/A,"B550M Pro4, 90-MXBDK0-A0UAYZ","
+","B550M Pro4, 90-MXBDK0-A0UAYZ","
 AM4
 ","
 Micro ATX
@@ -2648,10 +2646,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 Asus TUF GAMING B550-PLUS WIFI II,https://m.media-amazon.com/images/I/41vgwexGr2L.jpg,https://pcpartpicker.com/product/pLNxFT/asus-tuf-gaming-b550-plus-wifi-ii-atx-am4-motherboard-tuf-gaming-b550-plus-wifi-ii,$146.71 ,"
 Asus
-",N/A,"TUF GAMING B550-PLUS WIFI II, 90MB19U0-MVAAY0, 90MB19U0-M0EAY0","
+","TUF GAMING B550-PLUS WIFI II, 90MB19U0-MVAAY0, 90MB19U0-M0EAY0","
 AM4
 ","
 ATX
@@ -2701,10 +2699,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",31
+",
 Gigabyte B760M DS3H DDR4,//cdna.pcpartpicker.com/static/forever/images/product/fa9a999bdf4679ce16db3dd924575170.256p.jpg,https://pcpartpicker.com/product/DLVmP6/gigabyte-b760m-ds3h-ddr4-micro-atx-lga1700-motherboard-b760m-ds3h-ddr4,$99.99 ,"
 Gigabyte
-",N/A,B760M DS3H DDR4,"
+",B760M DS3H DDR4,"
 LGA1700
 ","
 Micro ATX
@@ -2754,10 +2752,10 @@ Depends on CPU
 No
 ",None,"
 No
-",31
+",
 Gigabyte A520I AC,//cdna.pcpartpicker.com/static/forever/images/product/87329029966463ec6eac31fad52fae85.256p.jpg,https://pcpartpicker.com/product/s6tKHx/gigabyte-a520i-ac-mini-itx-am4-motherboard-a520i-ac,$119.99 ,"
 Gigabyte
-",N/A,"A520I AC, GA-A520I AC","
+","A520I AC, GA-A520I AC","
 AM4
 ","
 Mini ITX
@@ -2807,10 +2805,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 Asus ROG STRIX B760-I GAMING WIFI,//cdna.pcpartpicker.com/static/forever/images/product/9b8e42f3b4e9ba5f9b18b87beb9359ec.256p.jpg,https://pcpartpicker.com/product/YxLFf7/asus-rog-strix-b760-i-gaming-wifi-mini-itx-lga1700-motherboard-rog-strix-b760-i-gaming-wifi,$199.99 ,"
 Asus
-",N/A,"ROG STRIX B760-I GAMING WIFI, 90MB1D90-M0AAY0, 90MB1D90-M0EAY0, 90MB1D90-M1EAY0","
+","ROG STRIX B760-I GAMING WIFI, 90MB1D90-M0AAY0, 90MB1D90-M0EAY0, 90MB1D90-M1EAY0","
 LGA1700
 ","
 Mini ITX
@@ -2860,10 +2858,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG STRIX B550-A GAMING,//cdna.pcpartpicker.com/static/forever/images/product/5ac88d84f61dd91c0621ac30c4dc5480.256p.jpg,https://pcpartpicker.com/product/y96qqs/asus-rog-strix-b550-a-gaming-atx-am4-motherboard-rog-strix-b550-a-gaming,$149.99 ,"
 Asus
-",N/A,"ROG STRIX B550-A GAMING, 90MB15J0-M0EAY0, 90MB15J0-MVAAY0","
+","ROG STRIX B550-A GAMING, 90MB15J0-M0EAY0, 90MB15J0-MVAAY0","
 AM4
 ","
 ATX
@@ -2913,10 +2911,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Gigabyte B650M D3HP,//cdna.pcpartpicker.com/static/forever/images/product/2c8a58d5597ab3e1cd648cb328928e74.256p.jpg,https://pcpartpicker.com/product/mkqrxr/gigabyte-b650m-d3hp-micro-atx-am5-motherboard-b650m-d3hp,$119.99 ,"
 Gigabyte
-",N/A,B650M D3HP,"
+",B650M D3HP,"
 AM5
 ","
 Micro ATX
@@ -2966,10 +2964,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Asus TUF GAMING A520M-PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/e17b78b80ad50c2c96668bb12c1f190e.256p.jpg,https://pcpartpicker.com/product/T6YmP6/asus-tuf-gaming-a520m-plus-wifi-micro-atx-am4-motherboard-tuf-gaming-a520m-plus-wifi,$89.99 ,"
 Asus
-",N/A,"TUF GAMING A520M-PLUS WIFI, 90MB17F0-M0EAY0","
+","TUF GAMING A520M-PLUS WIFI, 90MB17F0-M0EAY0","
 AM4
 ","
 Micro ATX
@@ -3019,10 +3017,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 ASRock B650M-HDV/M.2,//cdna.pcpartpicker.com/static/forever/images/product/e4a16a219fbf878e01a4beae50bbc0ef.256p.jpg,https://pcpartpicker.com/product/Dq4Zxr/asrock-b650m-hdvm2-micro-atx-am5-motherboard-b650m-hdvm2,$161.99 ,"
 ASRock
-",N/A,"B650M-HDV/M.2, 90-MXBLA0-A0UAYZ","
+","B650M-HDV/M.2, 90-MXBLA0-A0UAYZ","
 AM5
 ","
 Micro ATX
@@ -3072,10 +3070,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 Asus ROG STRIX X670E-E GAMING WIFI,https://m.media-amazon.com/images/I/51-jJs+Es9L.jpg,https://pcpartpicker.com/product/bGrRsY/asus-rog-strix-x670e-e-gaming-wifi-atx-am5-motherboard-rog-strix-x670e-e-gaming-wifi,$449.99 ,"
 Asus
-",N/A,"ROG STRIX X670E-E GAMING WIFI, STRIX X670E-E GAMING WIFI, 90MB1BR0-M0AAY0, 90MB1BR0-M0EAY0","
+","ROG STRIX X670E-E GAMING WIFI, STRIX X670E-E GAMING WIFI, 90MB1BR0-M0AAY0, 90MB1BR0-M0EAY0","
 AM5
 ","
 ATX
@@ -3125,10 +3123,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI PRO B650-P WIFI,//cdna.pcpartpicker.com/static/forever/images/product/b381dd1cf368e92388a8bfc64866fcc5.256p.jpg,https://pcpartpicker.com/product/CFzhP6/msi-pro-b650-p-wifi-atx-am5-motherboard-pro-b650-p-wifi,$156.36 ,"
 MSI
-",N/A,PRO B650-P WIFI,"
+",PRO B650-P WIFI,"
 AM5
 ","
 ATX
@@ -3178,10 +3176,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 ASRock Z690M-ITX/ax,//cdna.pcpartpicker.com/static/forever/images/product/74450edb9c12a5661dcfb371d65cadea.256p.jpg,https://pcpartpicker.com/product/2PYmP6/asrock-z690m-itxax-mini-itx-lga1700-motherboard-z690m-itxax,$134.99 ,"
 ASRock
-",N/A,"Z690M-ITX/ax, 90-MXBHY0-A0UAYZ","
+","Z690M-ITX/ax, 90-MXBHY0-A0UAYZ","
 LGA1700
 ","
 Mini ITX
@@ -3231,11 +3229,9 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",31
+",
 NZXT N7 B650E,//cdna.pcpartpicker.com/static/forever/images/product/f1c3a980e562664049693b11a32d2b99.256p.jpg,https://pcpartpicker.com/product/mBwypg/nzxt-n7-b650e-atx-am5-motherboard-n7-b65xt-w1,$279.99 ,"
 NZXT
-","
-N7 B650E
 ",N7-B65XT-W1,"
 AM5
 ","
@@ -3286,10 +3282,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",32
+",
 Gigabyte B450M DS3H WIFI,https://m.media-amazon.com/images/I/51BjdNGd3rL.jpg,https://pcpartpicker.com/product/HQVG3C/gigabyte-b450m-ds3h-wifi-micro-atx-am4-motherboard-b450m-ds3h-wifi,$84.99 ,"
 Gigabyte
-",N/A,"B450M DS3H WIFI, GA-B450M-DS3H-WIFI","
+","B450M DS3H WIFI, GA-B450M-DS3H-WIFI","
 AM4
 ","
 Micro ATX
@@ -3339,10 +3335,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 Asus TUF GAMING X570-PLUS (WI-FI),//cdna.pcpartpicker.com/static/forever/images/product/8d7d0435e8a2af93b5d91a1a5dccd476.256p.jpg,https://pcpartpicker.com/product/dmGnTW/asus-tuf-gaming-x570-plus-wi-fi-atx-am4-motherboard-tuf-gaming-x570-plus-wi-fi,$191.99 ,"
 Asus
-",N/A,"TUF GAMING X570-PLUS (WI-FI), 90MB1170-MVAAY0, 90MB1170-M0EAY0, 90MB1170-M0AAY0","
+","TUF GAMING X570-PLUS (WI-FI), 90MB1170-MVAAY0, 90MB1170-M0EAY0, 90MB1170-M0AAY0","
 AM4
 ","
 ATX
@@ -3392,11 +3388,9 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",32
+",
 Gigabyte B550 AORUS ELITE AX V2,https://m.media-amazon.com/images/I/51Hz3u7PR0L.jpg,https://pcpartpicker.com/product/Vb3mP6/gigabyte-b550-aorus-elite-ax-v2-atx-am4-motherboard-b550aorus-elite-axv2,$129.99 ,"
 Gigabyte
-","
-B550 AORUS ELITE AX V2
 ",B550AORUS ELITE AXV2,"
 AM4
 ","
@@ -3447,10 +3441,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",32
+",
 Gigabyte B650 GAMING X AX V2,https://m.media-amazon.com/images/I/51FV8n5IuGL.jpg,https://pcpartpicker.com/product/cPNYcf/gigabyte-b650-gaming-x-ax-v2-atx-am5-motherboard-b650-gaming-x-ax-v2,$187.98 ,"
 Gigabyte
-",N/A,B650 GAMING X AX V2,"
+",B650 GAMING X AX V2,"
 AM5
 ","
 ATX
@@ -3500,10 +3494,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MPG B550 GAMING PLUS,//cdna.pcpartpicker.com/static/forever/images/product/607f7ca77131a0bf7dc6b75617795203.256p.jpg,https://pcpartpicker.com/product/yKVG3C/msi-mpg-b550-gaming-plus-atx-am4-motherboard-mpg-b550-gaming-plus,$139.99 ,"
 MSI
-",N/A,"MPG B550 GAMING PLUS, 7C56-003R, B550GPLUS","
+","MPG B550 GAMING PLUS, 7C56-003R, B550GPLUS","
 AM4
 ","
 ATX
@@ -3553,10 +3547,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 Asus ROG MAXIMUS Z790 FORMULA,//cdna.pcpartpicker.com/static/forever/images/product/6bcf5b97a60640346360d29a75dbe3b6.256p.jpg,https://pcpartpicker.com/product/V6mNnQ/asus-rog-maximus-z790-formula-atx-lga1700-motherboard-rog-maximus-z790-formula,$739.99 ,"
 Asus
-",N/A,"ROG MAXIMUS Z790 FORMULA, 90MB1FS0-M0EAY0, 90MB1FS0-M0AAY0","
+","ROG MAXIMUS Z790 FORMULA, 90MB1FS0-M0EAY0, 90MB1FS0-M0AAY0","
 LGA1700
 ","
 ATX
@@ -3606,10 +3600,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Gigabyte B450M K,//cdna.pcpartpicker.com/static/forever/images/product/b9ebe8eb9d11bc4ac792b0b4ee3cfc22.256p.jpg,https://pcpartpicker.com/product/KvgFf7/gigabyte-b450m-k-micro-atx-am4-motherboard-b450m-k,$84.99 ,"
 Gigabyte
-",N/A,B450M K,"
+",B450M K,"
 AM4
 ","
 Micro ATX
@@ -3659,10 +3653,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock B760M-H/M.2,//cdna.pcpartpicker.com/static/forever/images/product/415658b82f771d6448e27297e6724bb7.256p.jpg,https://pcpartpicker.com/product/jpDQzy/asrock-b760m-hm2-micro-atx-lga1700-motherboard-b760m-hm2,$89.99 ,"
 ASRock
-",N/A,"B760M-H/M.2, 90-MXBM40-A0UAYZ","
+","B760M-H/M.2, 90-MXBM40-A0UAYZ","
 LGA1700
 ","
 Micro ATX
@@ -3712,10 +3706,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock A520M-HDV,//cdna.pcpartpicker.com/static/forever/images/product/44867ec7814048eb5afc863cc9bc1de3.256p.jpg,https://pcpartpicker.com/product/bWqBD3/asrock-a520m-hdv-micro-atx-am4-motherboard-a520m-hdv,$66.98 ,"
 ASRock
-",N/A,"A520M-HDV, 90-MXBE50-A0UAYZ","
+","A520M-HDV, 90-MXBE50-A0UAYZ","
 AM4
 ","
 Micro ATX
@@ -3765,10 +3759,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Asus TUF GAMING X670E-PLUS WIFI,https://m.media-amazon.com/images/I/51VrAy4J9BL.jpg,https://pcpartpicker.com/product/8yjBD3/asus-tuf-gaming-x670e-plus-wifi-atx-am5-motherboard-tuf-gaming-x670e-plus-wifi,$269.99 ,"
 Asus
-",N/A,"TUF GAMING X670E-PLUS WIFI, 90MB1BK0-M0AAY0, 90MB1BK0-M0EAY0","
+","TUF GAMING X670E-PLUS WIFI, 90MB1BK0-M0AAY0, 90MB1BK0-M0EAY0","
 AM5
 ","
 ATX
@@ -3818,10 +3812,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B650I AORUS ULTRA,//cdna.pcpartpicker.com/static/forever/images/product/d24b8a128d98467e0dd3bc57882ddd55.256p.jpg,https://pcpartpicker.com/product/bYytt6/gigabyte-b650i-aorus-ultra-mini-itx-am5-motherboard-b650i-aorus-ultra,$249.99 ,"
 Gigabyte
-",N/A,B650I AORUS ULTRA,"
+",B650I AORUS ULTRA,"
 AM5
 ","
 Mini ITX
@@ -3871,10 +3865,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MPG B650I EDGE WIFI,//cdna.pcpartpicker.com/static/forever/images/product/67b21f33b930179c2c462faa514ae6f3.256p.jpg,https://pcpartpicker.com/product/DkFbt6/msi-mpg-b650i-edge-wifi-mini-itx-am5-motherboard-mpg-b650i-edge-wifi,$260.99 ,"
 MSI
-",N/A,"MPG B650I EDGE WIFI, 7D73-001R","
+","MPG B650I EDGE WIFI, 7D73-001R","
 AM5
 ","
 Mini ITX
@@ -3924,10 +3918,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI X670E GAMING PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/f8d60a74e775beebaf456eebb23c4ca4.256p.jpg,https://pcpartpicker.com/product/4jKscf/msi-x670e-gaming-plus-wifi-atx-am5-motherboard-x670e-gaming-plus-wifi,$229.99 ,"
 MSI
-",N/A,"X670E GAMING PLUS WIFI, 7E16-003R, 911-7E16-003, X670EGAMPLUSWIFI, 7E16-001R, 911-7E16-002","
+","X670E GAMING PLUS WIFI, 7E16-003R, 911-7E16-003, X670EGAMPLUSWIFI, 7E16-001R, 911-7E16-002","
 AM5
 ","
 ATX
@@ -3977,10 +3971,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Asus ROG STRIX Z690-E GAMING WIFI,https://m.media-amazon.com/images/I/415gDmtLY0L.jpg,https://pcpartpicker.com/product/MNWzK8/asus-rog-strix-z690-e-gaming-wifi-atx-lga1700-motherboard-rog-strix-z690-e-gaming-wifi,$230.99 ,"
 Asus
-",N/A,"ROG STRIX Z690-E GAMING WIFI, STRIX Z690-E GAMING WIFI, 90MB18J0-M0EAY0","
+","ROG STRIX Z690-E GAMING WIFI, STRIX Z690-E GAMING WIFI, 90MB18J0-M0EAY0","
 LGA1700
 ","
 ATX
@@ -4030,10 +4024,10 @@ Depends on CPU
 No
 ",Wi-Fi 6,"
 Yes
-",31
+",
 Gigabyte Z790 AORUS PRO X,//cdna.pcpartpicker.com/static/forever/images/product/a8495725e51b379eb0d32c9199ebf463.256p.jpg,https://pcpartpicker.com/product/jxV2FT/gigabyte-z790-aorus-pro-x-atx-lga1700-motherboard-z790-aorus-pro-x,$329.99 ,"
 Gigabyte
-",N/A,Z790 AORUS PRO X,"
+",Z790 AORUS PRO X,"
 LGA1700
 ","
 ATX
@@ -4083,10 +4077,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Asus ROG STRIX Z690-I GAMING WIFI,https://m.media-amazon.com/images/I/41IdNhRtvsL.jpg,https://pcpartpicker.com/product/yzWzK8/asus-rog-strix-z690-i-gaming-wifi-mini-itx-lga1700-motherboard-rog-strix-z690-i-gaming-wifi,$199.99 ,"
 Asus
-",N/A,"ROG STRIX Z690-I GAMING WIFI, STRIX Z690-I GAMING WIFI, 90MB1910-M0EAY0","
+","ROG STRIX Z690-I GAMING WIFI, STRIX Z690-I GAMING WIFI, 90MB1910-M0EAY0","
 LGA1700
 ","
 Mini ITX
@@ -4136,10 +4130,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MAG B550 TOMAHAWK,https://m.media-amazon.com/images/I/617ju5dzLcL.jpg,https://pcpartpicker.com/product/3Mxbt6/msi-mag-b550-tomahawk-atx-am4-motherboard-mag-b550-tomahawk,$139.99 ,"
 MSI
-",N/A,"MAG B550 TOMAHAWK, 7C91-001R, B550TMHWK","
+","MAG B550 TOMAHAWK, 7C91-001R, B550TMHWK","
 AM4
 ","
 ATX
@@ -4189,10 +4183,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",32
+",
 Asus ROG STRIX Z790-E GAMING WIFI,//cdna.pcpartpicker.com/static/forever/images/product/79687dad482d6163f14752ea4764c5f2.256p.jpg,https://pcpartpicker.com/product/2YM48d/asus-rog-strix-z790-e-gaming-wifi-atx-lga1700-motherboard-rog-strix-z790-e-gaming-wifi,$357.98 ,"
 Asus
-",N/A,"ROG STRIX Z790-E GAMING WIFI, 90MB1CL0-M0EAY0","
+","ROG STRIX Z790-E GAMING WIFI, 90MB1CL0-M0EAY0","
 LGA1700
 ","
 ATX
@@ -4242,10 +4236,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B650M AORUS ELITE AX,//cdna.pcpartpicker.com/static/forever/images/product/642855fc353779efbac612d0a46e54d0.256p.jpg,https://pcpartpicker.com/product/fFzhP6/gigabyte-b650m-aorus-elite-ax-micro-atx-am5-motherboard-b650m-aorus-elite-ax,$169.99 ,"
 Gigabyte
-",N/A,B650M AORUS ELITE AX,"
+",B650M AORUS ELITE AX,"
 AM5
 ","
 Micro ATX
@@ -4295,10 +4289,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte A620I AX,//cdna.pcpartpicker.com/static/forever/images/product/69a825f37db70263d7e51fb24fb8e887.256p.jpg,https://pcpartpicker.com/product/Hp3NnQ/gigabyte-a620i-ax-mini-itx-am5-motherboard-a620i-ax,$139.99 ,"
 Gigabyte
-",N/A,A620I AX,"
+",A620I AX,"
 AM5
 ","
 Mini ITX
@@ -4348,10 +4342,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 ASRock A620I LIGHTNING WIFI,//cdna.pcpartpicker.com/static/forever/images/product/fa6f8039fa88f183baa55bd2e96d8c85.256p.jpg,https://pcpartpicker.com/product/zQhv6h/asrock-a620i-lightning-wifi-mini-itx-am5-motherboard-a620i-lightning-wifi,$139.99 ,"
 ASRock
-",N/A,"A620I LIGHTNING WIFI, 90-MXBMN0-A0UAYZ","
+","A620I LIGHTNING WIFI, 90-MXBMN0-A0UAYZ","
 AM5
 ","
 Mini ITX
@@ -4401,10 +4395,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 Gigabyte B550 GAMING X V2,//cdna.pcpartpicker.com/static/forever/images/product/09d3314474cf5fefa2bd5c5941bb33b5.256p.jpg,https://pcpartpicker.com/product/KxFbt6/gigabyte-b550-gaming-x-v2-atx-am4-motherboard-b550-gaming-x-v2,$99.99 ,"
 Gigabyte
-",N/A,"B550 GAMING X V2, GAB55GMX2-00-G","
+","B550 GAMING X V2, GAB55GMX2-00-G","
 AM4
 ","
 ATX
@@ -4454,10 +4448,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 MSI PRO B760M-P DDR4,//cdna.pcpartpicker.com/static/forever/images/product/2242bd04b2fe1d3c2ad72d2f7d36b2b0.256p.jpg,https://pcpartpicker.com/product/M6nypg/msi-pro-b760m-p-ddr4-micro-atx-lga1700-motherboard-pro-b760m-p-ddr4,$99.99 ,"
 MSI
-",N/A,"PRO B760M-P DDR4, 7E02-001R, 911-7E02-001","
+","PRO B760M-P DDR4, 7E02-001R, 911-7E02-001","
 LGA1700
 ","
 Micro ATX
@@ -4507,10 +4501,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Asus ROG ZENITH II EXTREME ALPHA,https://m.media-amazon.com/images/I/51Fq730c2aL.jpg,https://pcpartpicker.com/product/zcyqqs/asus-rog-zenith-ii-extreme-alpha-eatx-strx4-motherboard-rog-zenith-ii-extreme-alpha,,"
 Asus
-",N/A,"ROG ZENITH II EXTREME ALPHA, ZENITH II EXTREME ALPHA, 90MB14K0-M0EAY0","
+","ROG ZENITH II EXTREME ALPHA, ZENITH II EXTREME ALPHA, 90MB14K0-M0EAY0","
 sTRX4
 ","
 EATX
@@ -4560,10 +4554,10 @@ No
 Yes
 ",Wi-Fi 6,"
 Yes
-",32
+",
 Gigabyte B550M DS3H AC,//cdna.pcpartpicker.com/static/forever/images/product/f297e0c6c4d4721c02cf4d51f53674aa.256p.jpg,https://pcpartpicker.com/product/RHWzK8/gigabyte-b550m-ds3h-ac-micro-atx-am4-motherboard-b550m-ds3h-ac,$104.89 ,"
 Gigabyte
-",N/A,"B550M DS3H AC, GA-B550M-DS3H-AC","
+","B550M DS3H AC, GA-B550M-DS3H-AC","
 AM4
 ","
 Micro ATX
@@ -4613,10 +4607,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 ASRock B650M-H/M.2+,//cdna.pcpartpicker.com/static/forever/images/product/07c31fe938c6e8531c051bc527759992.256p.jpg,https://pcpartpicker.com/product/xFmNnQ/asrock-b650m-hm2-micro-atx-am5-motherboard-b650m-hm2,$99.99 ,"
 ASRock
-",N/A,"B650M-H/M.2+, 90-MXBMS0-A0UAYZ","
+","B650M-H/M.2+, 90-MXBMS0-A0UAYZ","
 AM5
 ","
 Micro ATX
@@ -4666,10 +4660,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 Gigabyte H410M H V2,//cdna.pcpartpicker.com/static/forever/images/product/5420748584136a6bbb941341c4ad8912.256p.jpg,https://pcpartpicker.com/product/8TmNnQ/gigabyte-h410m-h-v2-micro-atx-lga1200-motherboard-h410m-h-v2,$76.91 ,"
 Gigabyte
-",N/A,H410M H V2,"
+",H410M H V2,"
 LGA1200
 ","
 Micro ATX
@@ -4719,10 +4713,10 @@ Depends on CPU
 No
 ",None,"
 Yes
-",31
+",
 ASRock B550M-ITX/ac,https://m.media-amazon.com/images/I/515LtxB77aL.jpg,https://pcpartpicker.com/product/G6VG3C/asrock-b550m-itxac-mini-itx-am4-motherboard-b550m-itxac,$111.13 ,"
 ASRock
-",N/A,"B550M-ITX/ac, 90-MXBDH0-A0UAYZ","
+","B550M-ITX/ac, 90-MXBDH0-A0UAYZ","
 AM4
 ","
 Mini ITX
@@ -4772,10 +4766,10 @@ Depends on CPU
 No
 ",Wi-Fi 5,"
 Yes
-",31
+",
 Gigabyte B550M AORUS ELITE AX,//cdna.pcpartpicker.com/static/forever/images/product/bf6939e818d9dd155a2acf5199ef6720.256p.jpg,https://pcpartpicker.com/product/YhtLrH/gigabyte-b550m-aorus-elite-ax-micro-atx-am4-motherboard-b550m-aorus-elite-ax,$99.99 ,"
 Gigabyte
-",N/A,B550M AORUS ELITE AX,"
+",B550M AORUS ELITE AX,"
 AM4
 ","
 Micro ATX
@@ -4825,10 +4819,10 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
+",
 MSI MEG Z790 GODLIKE MAX,//cdna.pcpartpicker.com/static/forever/images/product/222207db464aa7592525f54aec392d88.256p.jpg,https://pcpartpicker.com/product/GsvD4D/msi-meg-z790-godlike-max-eatx-lga1700-motherboard-meg-z790-godlike-max,"$1,196.99 ","
 MSI
-",N/A,"MEG Z790 GODLIKE MAX, 7D85-008R","
+","MEG Z790 GODLIKE MAX, 7D85-008R","
 LGA1700
 ","
 EATX
@@ -4878,10 +4872,10 @@ Depends on CPU
 No
 ",Wi-Fi 7,"
 Yes
-",31
+",
 Asus TUF GAMING Z790-PLUS WIFI,//cdna.pcpartpicker.com/static/forever/images/product/aeb8a7dad48da098b42945e9439076fe.256p.jpg,https://pcpartpicker.com/product/s3cG3C/asus-tuf-gaming-z790-plus-wifi-atx-lga1700-motherboard-tuf-gaming-z790-plus-wifi,$227.99 ,"
 Asus
-",N/A,"TUF GAMING Z790-PLUS WIFI, 90MB1D80-M0EAY0, 90MB1D80-M0AAY0, 90MB1D80-M1EAY0","
+","TUF GAMING Z790-PLUS WIFI, 90MB1D80-M0EAY0, 90MB1D80-M0AAY0, 90MB1D80-M1EAY0","
 LGA1700
 ","
 ATX
@@ -4931,11 +4925,4 @@ Depends on CPU
 No
 ",Wi-Fi 6E,"
 Yes
-",31
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+",
