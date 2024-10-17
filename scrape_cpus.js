@@ -1,15 +1,42 @@
 const { ZenRows } = require("zenrows");
 const fs = require("fs");
 const { parse } = require("node-html-parser");
+const csvParser = require("csv-parser");  // Add CSV parser to read CSV
 
-const apiKey = "5f3db6a2048fd1567726afa280301287efc0cf77"; // Replace with your actual ZenRows API key
+const apiKey = "c7c6eed4894be2939badbad19c8634e34fcf0ff5"; // Replace with your actual ZenRows API key
 const baseURL = "https://pcpartpicker.com/products/cpu/";
 const outputFile = "cpus_detailed.csv";
 const client = new ZenRows(apiKey);
+const headers = "Name,Image URL,Product URL,Price,Manufacturer,Part #,Series,Microarchitecture,Core Family,Socket,Core Count,Performance Core Clock,Performance Core Boost Clock,Efficiency Core Clock,Efficiency Core Boost Clock,L2 Cache,L3 Cache,TDP,Integrated Graphics,Maximum Supported Memory,ECC Support,Includes Cooler,Packaging,Lithography,Includes CPU Cooler,Simultaneous Multithreading,Specs Num\n";
+const page_number =4;
 
-if (!fs.existsSync(outputFile)) {
-    let headers = "Name,Image URL,Product URL,Price,Manufacturer,Part #,Series,Microarchitecture,Core Family,Socket,Core Count,Performance Core Clock,Performance Core Boost Clock,Efficiency Core Clock,Efficiency Core Boost Clock,L2 Cache,L3 Cache,TDP,Integrated Graphics,Maximum Supported Memory,ECC Support,Includes Cooler,Packaging,Lithography,Includes CPU Cooler,Simultaneous Multithreading,Specs Num\n";
-    fs.writeFileSync(outputFile, headers);
+// Store names of existing CPUs to skip duplicates
+let existingCPUNames = new Set();
+
+// Function to read existing CPU names from CSV file
+function loadExistingCPUNames() {
+    return new Promise((resolve, reject) => {
+        if (fs.existsSync(outputFile)) {
+            fs.createReadStream(outputFile)
+                .pipe(csvParser())
+                .on('data', (row) => {
+                    // Assuming 'Name' is the first field in the CSV
+                    if (row['Name']) {
+                        existingCPUNames.add(row['Name']);
+                    }
+                })
+                .on('end', () => {
+                    console.log("Existing CPU names loaded.");
+                    resolve();
+                })
+                .on('error', reject);
+        } else {
+            // If the file doesn't exist, create it with headers
+            console.log("CSV file not found, creating new file with headers.");
+            fs.writeFileSync(outputFile, headers, 'utf8');
+            resolve();
+        }
+    });
 }
 
 function escapeCSVField(field) {
@@ -23,10 +50,10 @@ async function fetchCPUDetails(url) {
     let retries = 3;
     while (retries > 0) {
         try {
-            const { data } = await client.get(url, {});
+            const { data } = await client.get(url, {"premium_proxy": true});
 
             const root = parse(data);
-            const specsSelector = '#product-page > div.main-wrapper.xs-col-12 > div.wrapper.wrapper__pageContent > section > div > div.main-content.col.xs-col-12.md-col-9.lg-col-9 > div.block.xs-block.md-hide.specs';
+            const specsSelector = '#product-page > div.main-wrapper.xs-col-12 > div.wrapper.wrapper__pageContent > section > div > div.main-content.col.xs-col-12.md-col-8.lg-col-8.xl-col-9 > div.block.xs-block.md-hide.specs';
             const specs = root.querySelector(specsSelector);
             if (!specs) {
                 console.error(`Specs section not found for ${url}`);
@@ -142,7 +169,8 @@ async function fetchCPUDetails(url) {
                 return {};
             }
             retries--;
-            await new Promise(resolve => setTimeout(resolve, 3000)); // Retry after 3 seconds
+            console.log(`Retrying ${url}... (${retries} retries left)`);
+            await new Promise(resolve => setTimeout(resolve, 3000));  // Wait before retrying
         }
     }
 }
@@ -152,12 +180,22 @@ async function scrapePage(pageNumber) {
     let csvContent = "";
 
     try {
-        const { data } = await client.get(url, { js_render: true, wait: 3000 });
+        const { data } = await client.get(url, { js_render: true, wait: 3000, "premium_proxy": true });
         const root = parse(data);
         const rows = root.querySelectorAll("#category_content > tr");
 
         for (const row of rows) {
+
             const name = row.querySelector('td.td__name > a > div.td__nameWrapper > p')?.innerText.trim();
+
+            // Check if the name already exists in the CSV
+            if (existingCPUNames.has(name)) {
+                console.log(`Skipping ${name} - already in CSV`);
+                continue;  // Skip this CPU if the name exists
+            }else{
+                console.log(`Trying to fetch ${name}`);
+            }
+
             const imageUrl = row.querySelector('td.td__name > a > div.td__imageWrapper > div > img')?.getAttribute('src');
             const productUrl = "https://pcpartpicker.com" + row.querySelector('td.td__name > a')?.getAttribute('href');
             const priceElement = row.querySelector('td.td__price');
@@ -202,8 +240,8 @@ async function scrapePage(pageNumber) {
 }
 
 (async () => {
-    for (let i = 8; i <=14 ; i++) { // Modify the range as needed
-        await scrapePage(i);
-    }
+    // Load existing CPU names from the CSV before starting the scraping process
+    await loadExistingCPUNames();
+    await scrapePage(page_number);
     console.log("Data has been written to CSV file.");
 })();
